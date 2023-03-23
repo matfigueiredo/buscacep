@@ -37,6 +37,7 @@ O servidor retornará um JSON com os dados referentes ao CEP buscado:
     "ddd": "11",
     "siafi": "7107"
 }
+~~~
 
 ### Considerações finais
 Esse projeto é apenas um exemplo de como é possível criar um servidor em Go para realizar a busca de CEPs.
