@@ -4,8 +4,8 @@ Esse projeto tem como objetivo criar um servidor local em Go que possa receber r
 
 ### Pré requisitos
 Antes de começar, certifique-se que você tenha os seguintes pré-requisitos instalados em sua máquina:
-*Go (versão 1.16 ou superior)
-*Git
+* Go (versão 1.16 ou superior)
+* Git
 
 ### Instalação e execução
 1. Faça o clone deste repositório em sua máquina: 
