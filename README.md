@@ -18,10 +18,10 @@ Antes de começar, certifique-se que você tenha os seguintes pré-requisitos in
 5. O servidor estará rodando em `http://localhost:8080`. Você pode acessar essa URL em seu navegador ou utilizar um cliente HTTP para fazer requisições GET.
 
 ### Utilização
-Para fazer a busca de um CEP, faça uma requisição GET para a URL http://localhost:8080/cep?{CEP desejado}.
+Para fazer a busca de um CEP, faça uma requisição GET para a URL http://localhost:8080/?cep={CEP desejado}.
 
 Por exemplo, se você deseja buscar o CEP 01234567, faça a seguinte requisição GET:
-`curl http://localhost:8080/cep?01234567`
+`curl http://localhost:8080/?cep=01234567`
 
 O servidor retornará um JSON com os dados referentes ao CEP buscado:
 ~~~json
